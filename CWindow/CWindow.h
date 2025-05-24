@@ -11,7 +11,7 @@
 #include "CSingletonBase.h"
 #include "CKeyboard.h"
 
-class CWindow : public CSingletonBase<CWindow>, CKeyboard
+class CWindow : public CSingletonBase<CWindow>, public CKeyboard
 {
 public:
 	// コンストラクタ.
